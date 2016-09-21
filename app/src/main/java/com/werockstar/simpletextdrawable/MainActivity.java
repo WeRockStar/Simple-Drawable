@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         view = findViewById(R.id.view);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-            view.setBackground(new SimpleTextDrawable("Hello Drawable!!!"));
+            view.setBackground(new GoodTextDrawable("Hello Hello Hello Hello Hello Drawable!!!"));
         }
     }
 }

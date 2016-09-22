@@ -1,5 +1,7 @@
 package com.werockstar.simpledrawable;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         view = findViewById(R.id.view);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-            view.setBackground(new GoodTextDrawable("Hello Hello Hello Hello Hello Drawable!!!"));
+            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
+            view.setBackground(new BitmapDrawable(bitmap));
         }
     }
 }

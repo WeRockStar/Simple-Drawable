@@ -1,4 +1,4 @@
-package com.werockstar.simpletextdrawable;
+package com.werockstar.simpledrawable;
 
 import org.junit.Test;
 

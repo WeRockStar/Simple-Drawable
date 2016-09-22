@@ -1,4 +1,4 @@
-package com.werockstar.simpletextdrawable;
+package com.werockstar.simpledrawable;
 
 
 import android.graphics.Canvas;

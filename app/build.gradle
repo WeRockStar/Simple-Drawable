@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        applicationId "com.werockstar.simpletextdrawable"
+        applicationId "com.werockstar.simpledrawable"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1

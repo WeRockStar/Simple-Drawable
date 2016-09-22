@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         view = findViewById(R.id.view);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
-            view.setBackground(new BitmapDrawable(bitmap));
+            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.werockstar);
+            view.setBackground(new RoundBitmapDrawable(bitmap, 50));
         }
     }
 }
